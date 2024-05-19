@@ -1,0 +1,41 @@
+<nav class="navbar">
+    <div class="container justify-content-end mb-2">
+        <a class="navbar-brand mx-5" href="/">Productos</a>
+        <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-cart-shopping text-black fs-4" data-bs-toggle="modal" data-bs-target="#myModal"></i>
+        </a>
+    </div>
+</nav>
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Mis productos</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div id="productosSeleccionados" class="modal-body">
+                <p>Modificar: Productos añadidos al carrito</p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Continuar</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .navbar {
+        background-color: rgba(184, 216, 197, 0.952);
+    }
+</style>
